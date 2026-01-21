@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Design sombre & élégant</title>
+  <meta name="description" content="Portfolio personnel de développeur frontend spécialisé en design sobre, UX et interfaces modernes." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+  <!-- JS -->
+  <script src="../js/script.js"></script>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Navigation principale">
+      <div class="nav-container">
+        <p class="logo">Omar<span>.Dev/</span></p>
+        <ul id="main-menu" class="nav-links">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-menu">
+          ☰
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--ACCUEIL -->
+    <section id="accueil" class="section hero">
+      <div class="container">
+        <div class="hero-content">
+          <header>
+            <h1>Développeur Full Stack</h1>
+          </header>
+          <p class="section-intro">
+            Je crée des expériences web
+            <strong class="highlight">modernes</strong> et
+            <strong class="highlight">performantes</strong>,
+            centrées sur l'expérience utilisateur.
+          </p>
+          <a href="#projets" class="btn">Découvrir mon travail →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section id="apropos" class="section about-section">
+      <div class="container">
+
+        <div class="about-header">
+          <h2>À propos de moi</h2>
+          
+        </div>
+        
+        <div class="about-wrapper">
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Développeur full stack passionné dans la creation  
+                de solutions épurées et performantes. Mon approche privilégie la simplicité, 
+                l'élégance et l'efficacité.
+              </p>
+              <p>
+                Je me spécialise dans le développement d'applications web et mobile modernes qui allient 
+                design minimaliste et technologies de pointe. Chaque projet est pour moi l'occasion 
+                de repousser les limites de l'expérience utilisateur.
+              </p>
+            </div>
+            
+            <!-- Détails personnels -->
+            <div class="about-details">
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="detail-text">
+                  <h4>Expérience</h4>
+                  <p>2+ années</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fas fa-project-diagram"></i>
+                </div>
+                <div class="detail-text">
+                  <h4>Projets</h4>
+                  <p>5+ réalisés</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="detail-text">
+                  <h4>Localisation</h4>
+                  <p>Niamey, Niger</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="detail-text">
+                  <h4>Éducation</h4>
+                  <p>Master en Génie Logiciel</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Bouton pour télécharger le CV -->
+            <a href="#" class="btn" style="margin-top: 1rem;">
+              <i class="fas fa-download" style="margin-right: 8px;"></i>
+              Télécharger mon CV
+            </a>
+          </div>
+          
+          <!-- Photo à droite -->
+          <div class="about-photo">
+            <img 
+              src="../assets/hero-image.jpg" 
+              alt="Photo de profil de Omar, développeur web"
+              loading="lazy"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section id="competences" class="section dark">
+      <div class="container">
+        <div class="section-header">
+          <h2>Compétences</h2>
+          <p class="section-intro">Un socle technique solide orienté performence</p>
+        </div>
+        <ul class="competences-grid">
+          <li>
+            <article class="competence-card">
+              <h3>Développement web</h3>
+              <p>HTML, CSS, JavaScript, React, animations modernes.</p>
+              <div class="competence-level">
+                <div class="level-label">
+                  <span>Maîtrise</span>
+                  <span>95%</span>
+                </div>
+                <div class="level-bar">
+                  <span class="level-fill" style="--level:95%"></span>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="competence-card">
+              <h3>Développement mobile</h3>
+              <p>Flutter pour les applications cross plateforme performentes</p>
+              <div class="competence-level">
+                <div class="level-label">
+                  <span>Expert</span>
+                  <span>90%</span>
+                </div>
+                <div class="level-bar">
+                  <span class="level-fill" style="--level:90%"></span>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="competence-card">
+              <h3>Performance Web</h3>
+              <p>Optimisation, accessibilité, bonnes pratiques.</p>
+              <div class="competence-level">
+                <div class="level-label">
+                  <span>Avancé</span>
+                  <span>85%</span>
+                </div>
+                <div class="level-bar">
+                  <span class="level-fill" style="--level:85%"></span>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projets" class="section dark">
+      <div class="container">
+        <div class="section-header">
+          <h2>Projets récents</h2>
+          <p class="section-intro">Quelques réalisations représentatives de mon approche</p>
+        </div>
+        <ul class="projets-grid">
+          <li>
+            <article class="projet-card">
+              <div class="projet-img" aria-hidden="true">🎨</div>
+              <div class="projet-content">
+                <h3>Galerie d'art</h3>
+                <p>Plateforme minimaliste immersive.</p>
+                <ul class="projet-tags">
+                  <li class="tag">React</li>
+                  <li class="tag">CSS</li>
+                  <li class="tag">Animation</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="projet-card">
+              <div class="projet-img" aria-hidden="true">📊</div>
+              <div class="projet-content">
+                <h3>Dashboard analytique</h3>
+                <p>Visualisation de données claire et efficace.</p>
+                <ul class="projet-tags">
+                  <li class="tag">Vue</li>
+                  <li class="tag">D3.js</li>
+                  <li class="tag">UX</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="projet-card">
+              <div class="projet-img" aria-hidden="true">🛒</div>
+              <div class="projet-content">
+                <h3>Boutique en ligne</h3>
+                <p>E-commerce premium avec interface raffinée.</p>
+                <ul class="projet-tags">
+                  <li class="tag">Next.js</li>
+                  <li class="tag">Commerce</li>
+                  <li class="tag">Design</li>
+                </ul>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section dark">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p class="section-intro">Un projet ? Une collaboration ? Discutons-en</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nom complet *</label>
+            <input id="name" type="text" required placeholder="Votre nom">
+          </div>
+          <div class="form-group">
+            <label for="email">Adresse email *</label>
+            <input id="email" type="email" required placeholder="votre@email.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" rows="5" required placeholder="Décrivez votre projet ou demande..."></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer le message</button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p class="footer-logo">Portfolio</p>
+      <ul class="footer-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="copyright">© 2026 — Tous droits réservés</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
